@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Style Guide
+title: Çalışmalarım
 image: 8.jpg
 date: 2018-03-02 13:35:20 +0200
 tags:
-categories: jekyll
+categories: guide
 ---
 A paragraph looks like this — dolor amet cray stumptown fingerstache neutra food truck seitan poke cardigan waistcoat VHS snackwave celiac hella. Godard seitan shoreditch flexitarian next level trust fund man braid vegan listicle keytar bitters. Disrupt cray fashion axe unicorn lomo shaman poke glossier keffiyeh snackwave austin tattooed seitan hexagon lo-fi. Lumbersexual irony vaporware, butcher shaman church-key iceland.
 
