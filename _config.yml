@@ -1,53 +1,47 @@
-title: Onur KIZILARSLAN
-description: Flexton is a responsive and ultra-minimal theme for Jekyll.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://imonur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Author
-author-name:    Onur KIZILARSLAN
-author-image:   1.jpg
-author-job:     Mechanical Engineer | Mechanical Engineer MSc. | Computer Engineer MSc.
-author-email:   imonur@yahoo.com # Add your email for contant form.
-author-twitter:  # Add your twitter account
-about-author:   Always hungry to keep learning.
+title: Catbook #Your awesome title
+email: #youremail@domain.com
+description: > # this means to ignore newlines until "baseurl"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-# Social settings
-social-twitter:   
-social-facebook:
-social-github:    imonur
-social-pinterest: 
-social-instagram: onurkizilarslan
-social-youtube:
-social-vk:   
-social-linkedin:  onur-kizilarslan
+baseurl: # the subpath of the site
+url: http://starry99.github.io/catbook # the base hostname & protocol for your site
 
-# Newsletter
-mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+permalink: /:year-:month/:title
+timezone:
 
-# Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1
+favicon: /assets/img/favicon.ico
 
-# Comment Section (Disqus)
-disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+google_analytics: #UA—XXXXXXXX-X
+disqus_shortname: #disqus shortname
 
-# Build settings
-markdown: kramdown
-permalink: /:day/:month/:year/:title/
-plugins:
-  - jekyll-paginate
+user:
+  name: Catbook
+  pic: /assets/img/cat.jpg
+  picAlt: "catbook"
+  job: a category-centric theme
+  aboutme: true # comment this out if you don't need the 'about' page.
 
-paginate: 7
-paginate_path: "/page/:num/"
-
-include:
-  - _pages
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Exclude from processing.
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+  - README.md
+  - LICENSE
+  - github
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comment: true   
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown 
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
