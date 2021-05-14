@@ -38,7 +38,7 @@ defaults:
       comment: true   
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown: kramdown 
+markdown: imonur 
 
 # Filtering Content
 show_drafts: null
