@@ -18,11 +18,11 @@ google_analytics: #UA—XXXXXXXX-X
 disqus_shortname: #disqus shortname
 
 user:
-  name: Onur2 KIZILARSLAN
+  name: Onur KIZILARSLAN
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
-  job: I am always hungry to learn
-  about: true # comment this out if you don't need the 'about' page.
+  job: a category-centric theme
+  aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
   - README.md
@@ -38,7 +38,7 @@ defaults:
       comment: true   
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown: imonur 
+markdown: kramdown 
 
 # Filtering Content
 show_drafts: null

@@ -7,21 +7,21 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Onur KIZILARSLAN
-    tagline: Mechanical Engineer | M.E. MSc. | C.S. MSc.
+    name: Alan Doe
+    tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: imonur@yahoo.com
-    phone: +90 546 417 86 77
-    website: imonur.github.io #do not add http://
-    linkedin: onurkizilarslan
-    xing: 
-    github: imonur
+    email: hello@webjeda.com
+    phone: 012 345 6789
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@onurkizilarslan'
+    twitter: '@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
