@@ -2,7 +2,7 @@
 
 # Site Settings
 title: Onur KIZILARSLAN
-url: 'http://imonur.github.io'
+url: 'http://imonur.github.io/cv/index.html'
 baseurl: '/online-cv' #change it according to your repository name
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
