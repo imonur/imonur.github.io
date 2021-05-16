@@ -18,14 +18,15 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 ```ruby
-Deneme Yazısı
-
-class 
-  def deneme
-  if denemeeeeee
-  {
-    Deneme
-  }
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from seaborn import heatmap
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.neural_network import MLPRegressor
 ```
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
