@@ -43,7 +43,7 @@ plt.show()
 
 
     
-![alt text](https://github.com/imonur/imonur.github.io/blob/main/_posts/output_3_0.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/output_3_0.png "Logo Title Text 1")
     
 
 
