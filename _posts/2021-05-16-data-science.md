@@ -1,6 +1,6 @@
 ---
 title: Data Science
-categories: [data science]
+categories: [datascience]
 comments: true
 ---
 
