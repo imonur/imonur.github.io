@@ -42,8 +42,6 @@ plt.show()
 ```
 
 
-    
-Reference-style: 
 ![alt text][logo]
 
 [logo]: https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/output_3_0.png "Logo Title Text 2"
