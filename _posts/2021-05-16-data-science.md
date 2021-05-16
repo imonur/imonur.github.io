@@ -1,23 +1,15 @@
 ---
-title: Çizgi Grafik
+title: Veri Görselleştirme
 categories: [datascience]
 comments: true
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# Veri Görselleştirme
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.md` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Çizgi Grafik (Line Plot)
 
-Jekyll also offers powerful support for code snippets:
 
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-```ruby
+```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -29,13 +21,34 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.neural_network import MLPRegressor
 ```
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+```python
+import matplotlib.pyplot as plt
 
+tarih =(3.112020, 3.122020, 3.132020, 3.142020, 3.152020, 3.162020,3.172020, 3.182020, 3.192020,3.202020, 3.212020, 3.222020, 3.232020, 3.242020, 3.252020,3.262020, 3.272020, 3.282020,3.292020, 3.302020, 3.312020,1.42020,  2.42020,  3.42020, 4.42020,  4.52020,  6.42020,7.42020,  8.42020,  9.42020, 10.42020, 11.42020, 12.42020, 13.42020, 14.42020, 15.42020, 16.42020, 17.42020, 18.42020, 19.42020, 20.42020, 21.42020)
+test = [0, 0, 0, 0, 2800, 0, 0, 7197, 1981,3656, 2953, 1758, 3672, 3952, 5035,7286, 7533, 7641, 9982, 11535, 15422, 14396, 18757, 16160, 19664, 20065, 21400, 20023, 24900, 28578, 30864, 33170, 35720,34456, 33070, 34090, 40427, 40270, 40520, 35344, 39703, 39429]
+
+plt.scatter(tarih, test)
+
+plt.xticks([3.112020, 3.122020, 3.132020,3.142020, 3.152020, 3.162020,3.172020, 3.182020, 3.192020,3.202020, 3.212020, 3.222020,3.232020, 3.242020, 3.252020,3.262020, 3.272020, 3.282020,3.292020, 3.302020, 3.312020,1.42020,  2.42020,  3.42020, 4.42020,  4.52020,  6.42020,7.42020,  8.42020,  9.42020,10.42020, 11.42020, 12.42020,13.42020, 14.42020, 15.42020, 16.42020, 17.42020, 18.42020, 19.42020, 20.42020, 21.42020]) 
+
+plt.yticks([0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,75, 80,85,90,95,98,100,], ['%0','%2','%4','%6','%8','%10','%12','%14','%16','%18','%20','%22','%24','%26','%28','%30','%32','%34','%36','%38','%40','%42','%44','%46','%48','%50','%52','%54','%56','%58','%60','%62','%64','%66','%68','%70','%75','%80','%85','%90','%95','%98','%100'])
+
+plt.xlabel('Yıllar')
+plt.ylabel('Artış Miktarı')
+plt.title("Yapılan Test Sayısı")
+plt.rcParams['figure.figsize'] = [25, 5]
+plt.show()
 ```
-Denemeeee
+
+
+![alt text][logo]
+
+[logo]: https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/2021-05-16-datavisualization.png "Logo Title Text 2"
+    
+
+
+
+```python
 
 ```
