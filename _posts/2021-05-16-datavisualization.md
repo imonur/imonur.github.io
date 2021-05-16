@@ -44,7 +44,7 @@ plt.show()
 
 ![alt text][logo]
 
-[logo]: https://github.com/imonur/imonur.github.io/blob/main/_posts/output_3_0.png "Logo Title Text 2"
+[logo]: https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/2021-05-16-datavisualization.png "Logo Title Text 2"
     
 
 
