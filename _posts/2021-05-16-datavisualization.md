@@ -46,7 +46,7 @@ plt.show()
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[logo]: https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/output_3_0.png "Logo Title Text 2"
     
 
 
