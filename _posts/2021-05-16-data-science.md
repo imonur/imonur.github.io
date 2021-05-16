@@ -1,5 +1,5 @@
 ---
-title: Data Science
+title: Çizgi Grafik
 categories: [datascience]
 comments: true
 ---
