@@ -35,7 +35,7 @@ plt.show()
 
 ![alt text][logo]
 
-[logo]: https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/2021-05-19-basic-line-chart "Logo Title Text 2"
+[logo]: https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/2021-05-19-basic-line-chart.png "Logo Title Text 2"
     
 
 
