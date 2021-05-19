@@ -37,9 +37,3 @@ plt.show()
 
 [logo]: https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/2021-05-19-basic-line-chart.png "Basic Line Chart"
     
-
-
-
-![alt text][signature]
-
-#[signature]: https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/signature.png "Onur KIZILARSLAN"
