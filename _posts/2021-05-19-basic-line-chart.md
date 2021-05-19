@@ -1,5 +1,5 @@
 ---
-title: Çizgi Grafik (Line Plot)
+title: Basit Çizgi Grafiği (Basic Line Chart)
 categories: [visualization]
 comments: true
 ---
