@@ -1,6 +1,6 @@
 ---
 title: Metin Dosyalarından Veri Okuma ( Reading Data from Text Files )
-categories: [Data]
+categories: [data]
 comments: true
 ---
 
