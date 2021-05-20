@@ -4,7 +4,11 @@ categories: [dataanalysis]
 comments: true
 ---
 
-Seaborn, Matplotlib destekli bir veri görselleştirme kütüphanesidir. İstatiksel verileri görselleştirmek için kullanmaktayız. Python'da Seaborn kütüphanesi kullanarak farklı temalarda grafikler  oluşturabiliriz.
+Metin dosyalarından veri okumak için ilk önce bağlantı kurmamız gerekiyor ve bunun için open() fonksiyonunu kullanmaktayız. İlk önce;
+
+    veriBaglantisi = open('veriDosyasi.txt', mode='r')
+
+fonksiyonu ile verilerin olduğu metin dosyası ile bağlantı kurulur. Burada open() bağlantı kurarken 'r' sadece veri okumak için kullanılır. 
 
 ```python
 
