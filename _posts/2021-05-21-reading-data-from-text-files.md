@@ -6,7 +6,11 @@ comments: true
 
 Metin dosyalarından veri okumak için ilk önce bağlantı kurmamız gerekiyor ve bunun için open() fonksiyonunu kullanmaktayız. İlk önce;
 
+```python
+
     veriBaglantisi = open('veriDosyasi.txt', mode='r')
+
+```
 
 fonksiyonu ile verilerin olduğu metin dosyası ile bağlantı kurulur. Burada open() bağlantı kurarken 'r' sadece veri okumak için kullanılır. 
 
