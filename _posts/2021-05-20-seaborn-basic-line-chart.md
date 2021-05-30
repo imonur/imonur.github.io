@@ -4,7 +4,7 @@ categories: [visualization]
 comments: true
 ---
 
-Seaborn, Matplotlib destekli bir veri görselleştirme kütüphanesidir. İstatiksel verileri görselleştirmek için kullanmaktayız. Python'da Seaborn kütüphanesi kullanarak farklı temalarda grafikler  oluşturabiliriz.
+Seaborn kütüphanesi, Matplotlib destekli bir veri görselleştirme kütüphanesidir. İstatiksel verileri görselleştirmek için kullanmaktayız. Python'da Seaborn kütüphanesi kullanarak farklı temalarda grafikler  oluşturabiliriz.
 
 ```python
 
