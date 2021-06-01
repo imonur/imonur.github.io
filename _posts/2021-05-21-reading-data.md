@@ -8,7 +8,7 @@ Metin dosyalarından veri okumak için ilk önce bağlantı kurmamız gerekiyor 
 
 ```python
 
-    veriBaglantisi = open('C:/Users/kullaniciadi/Desktop/veriDosyasi.txt', mode='r')
+    veriBaglantisi = open('veriDosyasi.txt', mode='r')
 
 ```
 
