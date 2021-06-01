@@ -23,8 +23,11 @@ fonksiyonu ile verilerin olduğu metin dosyası ile bağlantı kurulur. Burada o
 
 ```
 
+Python yazılımında veri okumak için read() metodunu kullanmaktayız. Bağlantı kurduktan sonra verileri okurken **with** fonksiyonunu kullanırsak eğer **close()** fonksiyonunu kullanmamıza gerek kalmaz. Bunun için şu şekilde bir yapı kullanırız.
 
+```python
 
-![alt text][logo]
+    with open('C:/Users/kullaniciadi/Desktop/veriDosyasi.txt', mode='r') as veriBaglantisi
+        print(veriBaglantisi.readline())
 
-[logo]: https://raw.githubusercontent.com/imonur/imonur.github.io/main/_posts/2021-05-20-seaborn-basic-line-chart.png "Basic Line Chart"
+```
