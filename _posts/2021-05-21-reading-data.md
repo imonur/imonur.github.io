@@ -27,7 +27,9 @@ Python yazılımında veri okumak için read() metodunu kullanmaktayız. Bağlan
 
 ```python
 
-    with open('C:/Users/kullaniciadi/Desktop/veriDosyasi.txt', mode='r') as veriBaglantisi
-        print(veriBaglantisi.readline())
+with open('D:\\Masaüstü\\veriDosyasi.txt', mode='r') as veriBaglantisi:
+    print(veriBaglantisi.read())  # Okunan verileri ekrana yazdırıyoruz.
+
 
 ```
+Eğer dosya boyutu büyük ise o zaman **read()** metodu yerine **readline()** metodunu kullanıyoruz. Bu metot, verileri satır satır okumamızı sağlıyor.
