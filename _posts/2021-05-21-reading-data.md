@@ -32,16 +32,7 @@ with open('D:\\Masaüstü\\veriDosyasi.txt', mode='r') as veriBaglantisi:
 
 
 ```
-Eğer dosya boyutu büyük ise o zaman **read()** metodu yerine **readline()** metodunu kullanıyoruz. Bu metot, verileri satır satır okumamızı sağlıyor.
-
-```python
-
-with open('D:\\Masaüstü\\veriDosyasi.txt', mode='r') as veriBaglantisi:
-    print(veriBaglantisi.readline())  # Okunan verileri ekrana yazdırıyoruz.
-
-
-```
-Eğer **readline()** metodunu kullanırsak ilk satırı alacak ve ekrana yazacktır. Ancak **readlines()** metodunu kullanırsak ekrana yazıları her satırı tırnak '' içerisinde yazacktır. Burada alt satıra geçilirken verilen boşluk **\n** ile ifade edilerek veriler tek satırda yazılacaktır.
+Eğer dosya boyutu büyük ise o zaman **read()** metodu yerine **readline()** metodunu kullanıyoruz. Bu metot, verileri satır satır okumamızı sağlıyor. Eğer **readline()** metodunu kullanırsak ilk satırı alacak ve ekrana yazacktır. Ancak **readlines()** metodunu kullanırsak ekrana yazıları her satırı tırnak '' içerisinde yazacktır. Burada alt satıra geçilirken verilen boşluk **\n** ile ifade edilerek veriler tek satırda yazılacaktır.
 
 ```python
 
