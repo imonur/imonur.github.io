@@ -1,5 +1,5 @@
 ---
-title: Metin Dosyalarından Veri Okuma ( Reading Data from Text Files )
+title: Covid19 Verilerinin Zaman Serileri ( Time Series Covid19 Confirmed )
 categories: [python]
 comments: true
 ---
