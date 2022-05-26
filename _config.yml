@@ -1,31 +1,47 @@
-title: jekyll-rtd-theme
-description: Just another documentation theme compatible with GitHub Pages
 
-theme: null
+title: Onur KIZILARSLAN #Your awesome title
+email: imonur@yahoo.com #youremail@domain.com
+description: > # this means to ignore newlines until "baseurl"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-# debug:
-#   compress: true
-#   dist: false
-#   shortcodes: true
+baseurl: # the subpath of the site
+url: http://imonur.github.io # the base hostname & protocol for your site
 
-readme_index:
-  with_frontmatter: true
+permalink: /:year-:month/:title
+timezone:
 
-plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
+favicon: /assets/img/favicon.ico
+
+google_analytics: #UA—XXXXXXXX-X
+disqus_shortname: #disqus shortname
+
+user:
+  name: Onur KIZILARSLAN
+  pic: /assets/img/cat.jpg
+  picAlt: "catbook"
+  job: imonur@yahoo.com
+  aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
-  - Makefile
-  - CNAME
+  - README.md
   - LICENSE
-  - update.sh
-  - Gemfile
-  - Gemfile.lock
-  - requirements.txt
-  - node_modules
-  - package.json
-  - package-lock.json
-  - webpack.config.js
-  - jekyll-rtd-theme.gemspec
+  - github
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comment: true   
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown:  
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
