@@ -17,6 +17,8 @@ social:
     url: https://twitter.com/brianmaierjr
   - platform: linkedin
     url: brianmaierjr
+  - platform: Web
+    url: brianmaierjr
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
