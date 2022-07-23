@@ -1,47 +1,34 @@
+# Your Name or Company
+title: Onur KIZILARSLAN
 
-title: Onur KIZILARSLAN #Your awesome title
-email: imonur@yahoo.com #youremail@domain.com
-description: > # this means to ignore newlines until "baseurl"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# Description of your website. This is used for social sharing.
+description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Uni Kravitz.
 
-baseurl: # the subpath of the site
-url: http://imonur.github.io # the base hostname & protocol for your site
+# A brief blurb about yourself
+content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.
 
-permalink: /:year-:month/:title
-timezone:
+# Add your social links
+social:
+  - platform: github
+    url: https://github.com/brianmaierjr
+  - platform: facebook
+    url: https://facebook.com/brianmaierjr
+  - platform: twitter
+    url: https://twitter.com/brianmaierjr
+  - platform: linkedin
+    url: brianmaierjr
 
-favicon: /assets/img/favicon.ico
+# General settings
+# url: http://brianmaierjr.github.com/uni
+# baseurl: "/uni" 
+markdown: kramdown
+sharing_image: share.jpg
+google_analytics: "UA-58263416-1" # google analytics tracking
 
-google_analytics: #UA—XXXXXXXX-X
-disqus_shortname: #disqus shortname
+#### LAYOUT OPTIONS #####
 
-user:
-  name: Onur KIZILARSLAN
-  pic: /assets/img/cat.jpg
-  picAlt: "catbook"
-  job: imonur@yahoo.com
-  aboutme: true # comment this out if you don't need the 'about' page.
+# Half layout
+half_side: right
 
-exclude:
-  - README.md
-  - LICENSE
-  - github
-
-defaults:
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comment: true   
-
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown:  
-
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      false
-unpublished: false
+# Full layout
+full_text_position: right # left, right or center

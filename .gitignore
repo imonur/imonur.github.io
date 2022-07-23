@@ -1,3 +1,5 @@
-_site/
-.sass-cache/
-_posts/2021-05-21-reading-data-from-text-files.md
+_site
+.sass-cache
+.DS_Store
+.ruby-version
+node_modules

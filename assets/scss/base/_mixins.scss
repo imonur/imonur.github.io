@@ -1,0 +1,53 @@
+/// Pixels to Rems Function
+/// Return a rem value of the exact amount of pixels that you need
+/// @example
+///     padding: rem(20);
+@function rem($pixels, $context: $browser-context) {
+  @return #{$pixels/$context}rem;
+}
+
+@function color($color) {
+  @if map-has-key($colors, $color) {
+    @return map-get($colors, $color);
+  } @else {
+    @warn 'Color does not exist! If a browser default exists it will use that.';
+    @return $color;
+  }
+}
+
+// Responsive Mixin Mobile First
+// @include min(md);
+@mixin min($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $value: map-get($breakpoints, $breakpoint);
+
+    @media screen and (min-width: $value) {
+      @content;
+    }
+  }
+}
+
+// Responsive Mixin
+// @include max((md);
+@mixin max($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $value: map-get($breakpoints, $breakpoint);
+
+    @media screen and (max-width: $value) {
+      @content;
+    }
+  }
+}
+
+// Responsive background images
+@mixin responsivebackground($sm, $md, $lg) {
+  @media screen and (max-width: 800px) {
+    background-image: url("/assets/img/"+$sm);
+  }
+  @media screen and (min-width: 801px) and (max-width: 1200px) {
+    background-image: url("/assets/img/"+$md);
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url("/assets/img/"+$lg);
+  }
+}
