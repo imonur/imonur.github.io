@@ -6,7 +6,7 @@ description:  The beautiful website of artist, poet, craftsperson, cyclist, and 
 
 # A brief blurb about yourself
 content: Merhabalar, GitHub sayfama hoş geldiniz. Burada, yapmış olduğum projelerimi sizlerle paylaşacağım. Hakkımda detaylı bilgiye blog hesabımdan ulaşabilirsiniz.
-         Hello and welcome to my GitHub page. Here, I will share my projects with you. You can find detailed information about me on my blog.
+         <br> Hello and welcome to my GitHub page. Here, I will share my projects with you. You can find detailed information about me on my blog.</br>
 # Add your social links
 social:
   - platform: blog
