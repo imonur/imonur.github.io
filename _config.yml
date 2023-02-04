@@ -12,11 +12,11 @@ social:
   - platform: github
     url: https://imonur.github.io/blog
   - platform: facebook
-    url: https://imonur.github.io/
-  - platform: twitter
-    url: https://imonur.github.io/
+    url: https://www.facebook.com/facadium
+  - platform: instagram
+    url: https://www.instagram.com/facadium/
   - platform: linkedin
-    url: brianmaierjr
+    url: https://www.linkedin.com/in/onur-kizilarslan/
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
