@@ -22,7 +22,7 @@ social:
   - platform: linkedin
     url: https://www.linkedin.com/in/onur-kizilarslan/
   - platform: mail
-    email: mailto:info@facadium.com.tr
+    email: email:info@facadium.com.tr
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
