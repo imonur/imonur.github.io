@@ -9,10 +9,14 @@ content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis cons
 
 # Add your social links
 social:
-  - platform: github
+  - platform: blog
     url: https://imonur.github.io/blog
   - platform: facebook
     url: https://www.facebook.com/facadium
+  - platform: eğitim
+    url: http://facadium.com.tr/
+  - platform: mağaza
+    url: https://www.stemkits.net/
   - platform: instagram
     url: https://www.instagram.com/facadium/
   - platform: linkedin
