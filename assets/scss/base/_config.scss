@@ -1,0 +1,28 @@
+/***************
+COLOR VARIABLES
+***************/
+$primary-color: purple;
+$link-color: $primary-color;
+
+/***************
+CONSISTENT SETTINGS
+***************/
+$padding: 50px; // Padding and margins
+$line-height: 44px; // Consistent height for buttons, inputs etc.
+
+/***************
+TYPE SETTINGS
+***************/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,700,700i");
+$sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
+
+/***************
+SIZES
+Browser Context (this is needed for the px to em's mixin)
+***************/
+$browser-context: 16; // Default
+
+/***************
+RESPONSIVE BREAKPOINTS
+***************/
+$breakpoints: (md: 768px);
