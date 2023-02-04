@@ -22,13 +22,13 @@ social:
 # url: http://brianmaierjr.github.com/uni
 # baseurl: "/uni" 
 markdown: kramdown
-sharing_image: share.jpg
+sharing_image: card-lg.jpg
 google_analytics: "UA-58263416-1" # google analytics tracking
 
 #### LAYOUT OPTIONS #####
 
 # Half layout
-half_side: right
+half_side: center
 
 # Full layout
-full_text_position: right # left, right or center
+full_text_position: center # left, right or center
