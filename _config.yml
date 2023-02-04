@@ -10,7 +10,7 @@ content: Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis cons
 # Add your social links
 social:
   - platform: github
-    url: https://imonur.github.io/
+    url: https://imonur.github.io/blog
   - platform: facebook
     url: https://imonur.github.io/
   - platform: twitter
