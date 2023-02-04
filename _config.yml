@@ -21,6 +21,8 @@ social:
     url: https://www.instagram.com/facadium/
   - platform: linkedin
     url: https://www.linkedin.com/in/onur-kizilarslan/
+  - platform: mail
+    email: example@example.com
 
 # General settings
 # url: http://brianmaierjr.github.com/uni
